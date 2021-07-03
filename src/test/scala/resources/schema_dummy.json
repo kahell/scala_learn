@@ -1,0 +1,139 @@
+{
+  "event_null": null,
+  "abandoned_cart_user_reward": {
+    "cart_id": {
+      "Type": "string",
+      "Optional": false
+    },
+    "credits_amount": {
+      "Type": "int",
+      "Optional": false
+    },
+    "credits_expired_at": {
+      "Type": "int",
+      "Optional": false
+    },
+    "credits_notes": {
+      "Type": "string",
+      "Optional": false
+    },
+    "user_variant": {
+      "Type": "string",
+      "Optional": false
+    }
+  },"base": {
+  "base_time": {
+    "Type": "int",
+    "Optional": false
+  },
+  "identity": {
+    "Type": "string",
+    "Optional": false
+  },
+  "ip_address": {
+    "Type": "string",
+    "Optional": false
+  },
+  "request_id": {
+    "Type": "string",
+    "Optional": false
+  },
+  "server_time": {
+    "Type": "int",
+    "Optional": false
+  },
+  "user_agent": {
+    "Type": "string",
+    "Optional": false
+  }
+},"reserved": {
+  "ad_id": {
+    "Type": "string",
+    "Optional": true
+  },
+  "bl_username": {
+    "Type": "string",
+    "Optional": true
+  },
+  "browser": {
+    "Type": "string",
+    "Optional": true
+  },
+  "browser_version": {
+    "Type": "string",
+    "Optional": true
+  },
+  "em": {
+    "Type": "string",
+    "Optional": true
+  },
+  "evn": {
+    "Type": "string",
+    "Optional": false
+  },
+  "identity": {
+    "Type": "string",
+    "Optional": true
+  },
+  "platform": {
+    "Type": "string",
+    "Optional": true
+  },
+  "sdk": {
+    "Type": "string",
+    "Optional": true
+  },
+  "t": {
+    "Type": "int",
+    "Optional": true
+  },
+  "td_app_ver": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_app_ver_num": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_board": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_brand": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_device": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_display": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_model": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_os_type": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_os_ver": {
+    "Type": "string",
+    "Optional": true
+  },
+  "td_uuid": {
+    "Type": "string",
+    "Optional": true
+  },
+  "ui": {
+    "Type": "string",
+    "Optional": false
+  },
+  "visible": {
+    "Type": "boolean",
+    "Optional": true
+  }
+}
+}
